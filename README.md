@@ -6,6 +6,7 @@
 [stackoverflow2](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
 > `javascript
+
 outWindowHeight = window.outerHeight;
 `
 [MDN链接](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/outerHeight)  
