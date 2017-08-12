@@ -7,4 +7,5 @@
 
 `outWindowHeight = window.outerHeight;
 `
+
 ![](https://developer.mozilla.org/@api/deki/files/213/=FirefoxInnerVsOuterHeight2.png)
