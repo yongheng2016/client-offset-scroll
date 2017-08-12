@@ -4,3 +4,7 @@
 
 [stackoverflow1](https://stackoverflow.com/questions/22675126/what-is-offsetheight-clientheight-scrollheight)
 [stackoverflow2](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
+
+`outWindowHeight = window.outerHeight;
+`
+![](https://developer.mozilla.org/@api/deki/files/213/=FirefoxInnerVsOuterHeight2.png)
