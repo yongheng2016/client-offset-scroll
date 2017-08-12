@@ -3,7 +3,7 @@
 >+ Window对象表示浏览器中打开的窗口；window对象可以省略。比如alert()、window.alert()。
 >+ Document对象是Window对象的一部分。那么document.body 我们可以写成window.document.body；浏览器的HTML文档成为Document对象。
 ---
-> # window
+# window
 
 + ## window.screen.height
 ```javascript
@@ -99,7 +99,7 @@ element.scrollTop = intValue   //滚动高度
 ---
 ---
 
-Event对象坐标
+# Event对象坐标
 + screenX和screenY （相对于用户屏幕）
 + clientX和clientY （相对于浏览器窗口）
 + pageX和pageY （相对于整张页面/包括隐藏部分）
