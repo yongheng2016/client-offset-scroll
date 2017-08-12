@@ -1,17 +1,3 @@
-# client-offset-scroll
-### 1. 点击预览  [https://yongheng2016.github.io/client-offset-scroll/](https://yongheng2016.github.io/client-offset-scroll/)    
-### 2. 打开开发者工具[console]
-
-[stackoverflow1](https://stackoverflow.com/questions/22675126/what-is-offsetheight-clientheight-scrollheight)  
-[stackoverflow2](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)  
-[掘金](https://juejin.im/entry/59772e9ef265da6c322e24f9)  
-[读你](http://duni.sinaapp.com/?p=750)  
-
-> `outWindowHeight = window.outerHeight`
-[MDN链接](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/outerHeight)  
-
-![](https://developer.mozilla.org/@api/deki/files/213/=FirefoxInnerVsOuterHeight2.png)
---------------------
 
 > 注意区分window和document的区别
 >+ Window对象表示浏览器中打开的窗口；window对象可以省略。比如alert()、window.alert()。
@@ -118,3 +104,14 @@ Event对象坐标
 + clientX和clientY （相对于浏览器窗口）
 + pageX和pageY （相对于整张页面/包括隐藏部分）
 + offsetX和offsetY （相对于事件源）
+
+---
+---
+
+1. 点击预览  [https://yongheng2016.github.io/client-offset-scroll/](https://yongheng2016.github.io/client-offset-scroll/)    
+2. 打开开发者工具[console]
+
+[stackoverflow1](https://stackoverflow.com/questions/22675126/what-is-offsetheight-clientheight-scrollheight)  
+[stackoverflow2](https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)  
+[掘金](https://juejin.im/entry/59772e9ef265da6c322e24f9)  
+[读你](http://duni.sinaapp.com/?p=750)  
