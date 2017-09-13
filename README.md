@@ -12,54 +12,62 @@
 ```javascript
 iHeight = window.screen.height
 ```
-+ [x] [参考](https://developer.mozilla.org/zh-CN/docs/Web/API/Screen/height)   
+
+[参考](https://developer.mozilla.org/zh-CN/docs/Web/API/Screen/height)   
 
 
 + ## window.screen.avialHeight【只读】
 ```javascript
 availHeight = window.screen.availHeight
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Screen/availHeight)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Screen/availHeight)
 
 
 + ## window.screenY【只读】
 ```javascript
 lLoc = window.screenY 
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY)
 
 
 + ## window.innerHeight【只读】  
 ```javascript
 intViewportHeight = window.innerHeight
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
+
+[x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
 
 
 + ## window.outerHeight【只读】
 ```javascript
 outWindowHeight = window.outerHeight
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight)
 
 
 + ## window.scrollTo
 ```javascript
 window.scrollTo(x-coord, y-coord)
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 
 
 ---
 ---
 
 # document
+
 + ## element.clientHeight【只读】
 ```javascript
 var h = element.clientHeight   //cssHeight + padding
 ```
 ![](https://developer.mozilla.org/@api/deki/files/185/=Dimensions-client.png)
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight)
 
 
 + ## HTMLElement.offsetHeight【只读】
@@ -67,7 +75,8 @@ var h = element.clientHeight   //cssHeight + padding
 var intElemOffsetHeight = element.offsetHeight   //cssHeight + padding +border
 ```
 ![](https://developer.mozilla.org/@api/deki/files/186/=Dimensions-offset.png)
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight)
 
 
 + ## Element.scrollHeight【只读】
@@ -75,21 +84,24 @@ var intElemOffsetHeight = element.offsetHeight   //cssHeight + padding +border
 var intElemScrollHeight = element.scrollHeight   //entireHeight(容器总高度)
 ```
 ![](https://developer.mozilla.org/@api/deki/files/840/=ScrollHeight.png)
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight)
 
 
 + ## Element.clientTop【只读】
 ```javascript
 vartop = element.clientTop   //border
 ```
-+ [x] [参考](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/clientTop)
+
+[参考](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/clientTop)
 
 
 + ## HTMLElement.offsetTop【只读】
 ```javascript
 topPos = element.offsetTop   //offsetParent 距离
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
 
 
 + ## Element.scrollTop【可写】
@@ -97,12 +109,14 @@ topPos = element.offsetTop   //offsetParent 距离
 var  intElemScrollTop = someElement.scrollTop
 element.scrollTop = intValue   //滚动高度
 ```
-+ [x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop)
+
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop)
 
 ---
 ---
 
 # Event对象坐标
+
 + screenX和screenY （相对于用户屏幕）
 + clientX和clientY （相对于浏览器窗口）
 + pageX和pageY （相对于整张页面/包括隐藏部分）
