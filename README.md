@@ -37,7 +37,7 @@ lLoc = window.screenY
 intViewportHeight = window.innerHeight
 ```
 
-[x] [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
+[参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight)
 
 
 + ## window.outerHeight【只读】
