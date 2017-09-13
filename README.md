@@ -1,8 +1,11 @@
 
-> 注意区分window和document的区别
+> 注意区分window和document的区别  
+
 > Window对象表示浏览器中打开的窗口；window对象可以省略。比如alert()、window.alert()。
 > Document对象是Window对象的一部分。那么document.body 我们可以写成window.document.body；浏览器的HTML文档成为Document对象。
+
 ---
+
 # window
 
 + ## window.screen.height
