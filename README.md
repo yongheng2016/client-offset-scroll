@@ -131,7 +131,7 @@ element.scrollTop = intValue   //滚动高度
 // 元素可见尺寸
 [getClientRects()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/getClientRects);
 // 元素超出也可获取
-getBoundingClientRect()。
+[getBoundingClientRect()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/getBoundingClientRect)。
 
 
 参考：
