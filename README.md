@@ -126,6 +126,13 @@ element.scrollTop = intValue   //滚动高度
 ---
 ---
 
+==============
+```
+// 元素可见尺寸
+getClientRects();
+// 元素超出也可获取
+getBoundingClientRect()。
+```
 
 参考：
 + [stackoverflow1](https://stackoverflow.com/questions/22675126/what-is-offsetheight-clientheight-scrollheight)  ：
